@@ -1,0 +1,94 @@
+body{
+  background-image:url('apples.jpg');
+  font-family:fantasy;
+  justify-content:center;
+  color:green;
+  border-style:double;
+  border-color:black;
+  border-width:thick;
+}
+.dropdownButton{
+  background-color:green;
+  color:black;
+  padding:16px;
+  font-size:16px;
+  border:none;
+  cursor:pointer;
+  min-width:160px;
+  border-style:solid;
+  border-color:black;
+  border-width:thick;
+}
+.dropdown{
+  position:relative;
+  display:inline-block;
+}
+.dropdown-content{
+  display:none;
+  position:absolute;
+  background-color:green;
+  text-align:center;
+  min-width:160px;
+  z-index:1;
+  left:0;
+}
+.dropdown-content a{
+  color:black;
+  padding-top:16px;
+  padding-bottom:12px;
+  padding-left:0px;
+  padding-right:0px;
+  text-decoration:none;
+  display:block;
+  border-style:solid;
+  border-color:black;
+  border-width:thick;
+}
+.dropdown-content a:hover{
+  background-color:#ff6666;
+}
+.dropdown:hover .dropdown-content{
+  display:block;
+}
+.dropdown:hover .dropdownButton{
+  background-color:#99cc00;
+}
+img{
+  border-style:groove;
+  border-width:thick;
+  display:flex;
+  justify-content:center;
+  margin:auto;
+  border-color:black;
+  margin-bottom:100px;
+}
+h1{
+  color:green;
+  display:block;
+  justify-content:center;
+  text-align:center;
+  background:rgba(0,0,0,0.7);
+  margin-top:100px;
+  font-weight:lighter;
+}
+p{
+  color:green;
+  font-weight:lighter;
+  font-size:20px;
+  display:flex;
+  margin-top:100px;
+  justify-content:center;
+  text-align:center;
+  background:rgba(0,0,0,0.7);
+}
+p2{
+  color:green;
+  font-weight:lighter;
+  font-size:20px;
+  display:flex;
+  margin-top:100px;
+  justify-content:center;
+  text-align:center;
+  background:rgba(0,0,0,0.7);
+  margin-bottom:200px;
+}

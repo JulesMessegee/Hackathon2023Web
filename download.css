@@ -1,0 +1,95 @@
+body{
+  background-image:url('pineapple.jpg');
+  font-family:fantasy;
+  justify-content:center;
+  color:orange;
+  border-style:double;
+  border-color:black;
+  border-width:thick;
+}
+.dropdownButton{
+  background-color:orange;
+  color:black;
+  padding:16px;
+  font-size:16px;
+  border:none;
+  cursor:pointer;
+  min-width:160px;
+  border-style:solid;
+  border-color:black;
+  border-width:thick;
+}
+.dropdown{
+  position:relative;
+  display:inline-block;
+}
+.dropdown-content{
+  display:none;
+  position:absolute;
+  background-color:orange;
+  text-align:center;
+  min-width:160px;
+  z-index:1;
+  left:0;
+}
+.dropdown-content a{
+  color:black;
+  padding-top:16px;
+  padding-bottom:12px;
+  padding-left:0px;
+  padding-right:0px;
+  text-decoration:none;
+  display:block;
+  border-style:solid;
+  border-color:black;
+  border-width:thick;
+}
+.dropdown-content .image{
+  color:black;
+  padding-left:0px;
+  padding-right:0px;
+  text-decoration:none;
+  display:block;
+}
+.dropdown-content a:hover{
+  background-color:#F4C22A;
+}
+.dropdown-content .image:hover{
+  background-color:#F4C22A;
+  cursor:pointer;
+}
+.dropdown:hover .dropdown-content{
+  display:block;
+}
+.dropdown:hover .dropdownButton{
+  background-color:#BD9311;
+}
+img{
+  display:flex;
+  justify-content:center;
+  margin:auto;
+}
+h1{
+  color:orange;
+  display:block;
+  justify-content:center;
+  text-align:center;
+  background:rgba(0,0,0,0.9);
+  margin-top:100px;
+  font-weight:lighter;
+}
+p{
+  color:orange;
+  font-weight:lighter;
+  font-size:20px;
+  display:flex;
+  margin-top:100px;
+  margin-bottom:100px;
+  justify-content:center;
+  text-align:center;
+  background:rgba(0,0,0,0.9);
+}
+ul{
+  list-style-type:square;
+  list-style:square;
+}

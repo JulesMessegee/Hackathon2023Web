@@ -1,0 +1,7 @@
+﻿  functions.c
+C:\Users\akaly\OneDrive\Desktop\CPS 122\hackathon\hackathon\functions.c(263,6): warning C4101: 'tempY': unreferenced local variable
+C:\Users\akaly\OneDrive\Desktop\CPS 122\hackathon\hackathon\functions.c(262,6): warning C4101: 'tempX': unreferenced local variable
+C:\Users\akaly\OneDrive\Desktop\CPS 122\hackathon\hackathon\functions.c(291,24): warning C4013: '_getch' undefined; assuming extern returning int
+C:\Users\akaly\OneDrive\Desktop\CPS 122\hackathon\hackathon\functions.c(283): warning C4716: 'followSnake': must return a value
+C:\Users\akaly\OneDrive\Desktop\CPS 122\hackathon\hackathon\functions.c(227): warning C4715: 'userInput': not all control paths return a value
+  hackathon.vcxproj -> C:\Users\akaly\OneDrive\Desktop\CPS 122\hackathon\x64\Debug\hackathon.exe
